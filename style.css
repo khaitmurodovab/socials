@@ -3,9 +3,6 @@
 body{
     font-family: "Inter";
     background-color: #141414;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 a{
     text-decoration: none;
@@ -75,3 +72,62 @@ span{
     background-color: #C4F82A;
     color: #333333;
 }
+.total-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.header{
+    background-color: rgb(76, 76, 76);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+ul{
+    list-style: none;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    align-items: center;
+}
+.header-item{
+    display: flex;
+}
+.header-link{
+    color: #FFFFFF;
+    padding-right: 17px;
+    padding-left: 17px;
+    transition: 0.2s;
+}
+.header-link:hover{
+    padding: 12px;
+    padding-right: 17px;
+    padding-left: 17px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #C4F82A;
+    background-color: rgb(93, 93, 93);
+    top: 0;
+}
+.header-btn{
+    border: 0.3px solid white;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #FFFFFF;
+    transition: .2s;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+}
+.header-btn:hover{
+    color: #333333;
+    background-color: #C4F82A;
+}
+.header-btn:active{
+    color: #333333;
+    background-color: #C4F82A;
+}
+
